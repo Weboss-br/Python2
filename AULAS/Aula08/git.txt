@@ -1,0 +1,8 @@
+git add . #adiciona todos os arquivos da pasta
+
+git status #Listar
+
+git commit -m "Texto do projeto"
+
+git pull # trás todos os arquivos do git
+
