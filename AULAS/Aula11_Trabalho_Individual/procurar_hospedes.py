@@ -1,0 +1,2 @@
+def procurarhospedes():
+    print('Procurar')
