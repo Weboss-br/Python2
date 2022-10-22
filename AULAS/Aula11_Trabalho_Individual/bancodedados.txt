@@ -1,7 +1,5 @@
-Joao de Deus
-Dieter
-Lirinha Doidao
-Thiago
-Leite em po
-d
-sdds
+{'nome': 'Heiss', 'cpf': '00362363900', 'telefone': '654654'}
+{'nome': 'Dieter', 'cpf': '00362363900', 'telefone': '6546546'}
+{'nome': 'Rg', 'cpf': '00362363900', 'telefone': '2312'}
+{'nome': 'Diet', 'cpf': '00362363900', 'telefone': '342324'}
+{'nome': 'Dfs', 'cpf': '00362363900', 'telefone': '562566'}
