@@ -1,10 +1,11 @@
-
-
+#Função CPF VALIDA:
 
 def cpfValidator(cpf):
+    CPFS = ["00000000000","11111111111", "22222222222", "33333333333", "44444444444", 
+        "55555555555", "66666666666", "77777777777", "88888888888", "99999999999"]
     hasError = False
     # Limpa o cpf, retira pontos traços e tudo que não seja um número
-    cpf = [int(char) for char in varcpf if char.isdigit()]        
+    cpf = [int(char) for char in cpf if char.isdigit()]        
 
     # Verifica se o cpf são números repetidos
     if ''.join(map(str, cpf)) in CPFS:
@@ -25,3 +26,9 @@ def cpfValidator(cpf):
         return False
     else:
         return True
+
+
+### Checkin 
+
+from _cadastro_cpf import cpfValidator
+

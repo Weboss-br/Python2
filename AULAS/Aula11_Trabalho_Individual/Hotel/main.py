@@ -1,25 +1,20 @@
-from _boas_vindas import boasvindas
-from _menu import menu
-from _fazer_checkin import fazercheck
-from note_read_file import listar
-#from _cadastro_cpf import *
-
-
-boasvindas()
+#import datetime
+from Controller import salvar, fazercheckin, cpfValidator, printmenu, wellcome, fazercheckout, listar
 
 while True:
-    
+    wellcome()
+    printmenu()
 
     menu = int(input("=> "))
 
     match menu:
 
         case 1:
-            fazercheck()
+            fazercheckin()
             
         case 2:
             listar()
-        
+            input('Listar SAporra!')
         case 3:
             procurarhospedes() 
             
@@ -27,8 +22,8 @@ while True:
             fazercheckout() 
 
         case 5:
-            
-            print(' Sair '.center(50, "*"))
+            print(' Não é para sair! '.center(50, "*"))
             break
+            
         case _:
             print("Digite uma opção válida.\n Uma das opções do Cadastro.")
