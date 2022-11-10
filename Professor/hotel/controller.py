@@ -85,8 +85,9 @@ def fazerCheckout(clienteFind):
         #variavel index recebendo operador relacional de incremento
         index +=1
 
-        #if condicional recebendo o clinteFind, que é o atributo principal da funcao,
-        # que recebe funcao interna do python eval(), permitindo assim manipular a linha atravez da chave condicional nome, ultilindo o meu dicionario inserido como um objeto
+        # if condicional recebendo o clinteFind, que é o atributo principal da funcao,
+        # que recebe funcao interna do python eval(), permitindo assim manipular a linha atravez da chave condicional nome, ultilindo o meu 
+        # dicionario inserido como um objeto
         if clienteFind == eval(line)['nome']:
 
             #Variavel chave criada recebendo incremento do indice atraves da variavel index
@@ -128,7 +129,8 @@ def fazerCheckout(clienteFind):
                         # condicao if se a posicao for diferente da chave
                         if posicao != chave:
 
-                            #variavel arquivo recebendo a funcao escrita, ira percorrer linha a linha identificando se o valor digitado contem na lista
+                            #variavel arquivo recebendo a funcao escrita, ira percorrer linha a linha identificando se o valor digitado 
+                            # contem na lista
                             arquivo.write(line)
 
                         #variavel posicao incrementando, se o valor da chave que foi digitado  o cliente é deletado

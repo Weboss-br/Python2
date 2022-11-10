@@ -4,8 +4,6 @@ from controller import fazerCheckin, fazerCheckout, procurarHospedes, relatorioH
 
 def menu():
 
-    
-
     #menu
     menu=1
     while(menu!=0):
@@ -22,7 +20,7 @@ def menu():
         #Sintax Case menu
         match menu:
             case 1:
-                # Variavel pessoa recebendo dcionario vazio
+                # Variavel pessoa recebendo dicionario vazio
                 pessoa={}
                 #Variavel pessoa, sendo atribuido chave, solicitando valor para o usuario
                 pessoa["nome"]=str(input("Digite seu nome:> "))
