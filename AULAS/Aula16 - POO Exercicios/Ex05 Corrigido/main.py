@@ -1,6 +1,8 @@
-from conta import Conta
+from conta import Conta, linha
 
-print("*"*30, "Inicio Menu", "*"*30)
+linha()
+print ('Inicio do menu') 
+
 
                 #atributo titular
 conta = Conta(input("Digite seu Nome:> "), 

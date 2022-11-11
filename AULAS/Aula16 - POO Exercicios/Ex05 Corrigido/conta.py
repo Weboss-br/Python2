@@ -26,9 +26,12 @@ class Conta:
         self.saldo -= valor
         
     #Metodo transferir recebendo variavel objeto e atributo valor, origem, destino internos do metodo
-    #recebendo condicional de sacar para o atributo origem
-    #recebendo condicional de depositar para o atributo destino
+    #Recebendo condicional de sacar para o atributo origem
+    #Recebendo condicional de depositar para o atributo destino
     def transferir(self, valor, origem, destino):
         origem.sacar(valor)
         destino.depositar(valor)
-       
+
+def linha():
+    print("*"*30)
+    
