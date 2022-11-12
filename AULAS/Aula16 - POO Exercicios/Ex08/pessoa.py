@@ -30,4 +30,4 @@ class Pessoa:
         return f'Nome:{self.get_nome()}\nNúmero do cpf:{self.get_cpf()}\nIdade:{self.get_idade()}\nAltura:{self.get_altura()}'
 
 def linha():
-    print("*"*30)
+    print('*'*30, 'Lista de animais','*'*30)
