@@ -1,8 +1,8 @@
 from pessoafisica import PessoaFisica
 from pessoajuridica import PessoaJuridica
 
-pessoafisica = PessoaFisica("nicolau", "488-136-158.92", 5000)
-pessoajuridica = PessoaJuridica("Lirinha", "158-136-477.60", 10000)
+pessoafisica = PessoaFisica("Dieter Heiss", "0036656454", 5000)
+pessoajuridica = PessoaJuridica("Heiss Com. Rep.", "00073911000149", 10000)
 
 segundotitular = pessoafisica.segundo_titular = "negrao"
 segundotitular02 = pessoajuridica.segundo_titular = "branquelo"
