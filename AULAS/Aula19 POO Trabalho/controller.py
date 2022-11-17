@@ -2,14 +2,13 @@ from conta import Conta
 
 def create(conta):
     #Variavel d referencia para txt
-    contas = open("constas.txt", "a")
+    contas = open('constas.txt', 'a')
     #Variavel d referencia de escrita
     contas.write(str(conta)+"\n")
     #Variavel d referancia fechando o arquivo
     contas.close
-
-def read(): 
-    #Lista vazia
+def read():
+ 
     lista_contas = []
     #Variavel d referencia para txt
     contas = open("contas.txt", "a")
@@ -32,4 +31,4 @@ def read():
         
         lista_contas.append(conta)
     contas.close
-    return 
+    return lista_contas
