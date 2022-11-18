@@ -1,0 +1,5 @@
+<bound method Conta.__str__ of <model.pessoaFisica.PessoaFisica object at 0x0000020B92F69DB0>>
+Titular: Dieter;
+CPF: 16;
+Saldo Inicial: 15000.0;
+Segundo Titular: ;

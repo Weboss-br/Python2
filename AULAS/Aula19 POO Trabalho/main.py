@@ -7,15 +7,15 @@ def menu():
     
     menu = 1
     while(menu != 0):
-        menu = int(input("\n1.Criar Conta: \n2.Mostrar Estatisticas da Conta: \n3.Sair: \n\nR:>"))
+        menu = int(input("\n1.Criar Conta: \n2.Estatisticas da Conta: \n3.Sair: \nDigite a opção:"))
         match menu:
 
             case 1:
                 conta = Conta()
 
                 conta.titular=str(input("Nome: "))
-                conta.numero=int(input("Número:> "))
-                conta.saldo=float(input("Saldo:> "))
+                conta.numero=int(input("Número: "))
+                conta.saldo=float(input("Saldo: "))
                 create(conta)
 
             case 2:
