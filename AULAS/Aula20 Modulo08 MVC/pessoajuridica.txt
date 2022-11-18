@@ -1,5 +1,1 @@
-<bound method Conta.__str__ of <model.pessoaJuridica.PessoaJuridica object at 0x000001BE3B0A9DB0>>
-Titular: Heiss;
-CNPJ: ;
-Saldo Inicial: 15000.0;
-Segundo Titular: ;
+Agencia de Brazolia;1321312; Heiss; ; 2121.0; Karla

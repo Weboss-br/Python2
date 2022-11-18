@@ -1,10 +1,17 @@
 from model.conta import Conta
 
 class PessoaFisica(Conta):
-    __segundo_titular = ''
     __titular = ''
     __cpf = ''
     __saldo_inicial = ''
+    __segundo_titular = ''
+
+    @property #getter
+    def titular(self):
+        return self.__titular
+    @titular.setter #setter
+    def titular(self, titular):
+        self.__titular = titular
 
     @property
     def segundo_titular(self):
@@ -13,13 +20,6 @@ class PessoaFisica(Conta):
     def segundo_titular(self, segundo_titular):
         self.__segundo_titular = segundo_titular
 
-    @property #getter
-    def titular(self):
-        return self.__titular
-    @titular.setter #setter
-    def titular(self, titular):
-        self.__titular = titular
-    
     @property
     def cpf(self):
         return self.__cpf
@@ -35,7 +35,7 @@ class PessoaFisica(Conta):
         self.__saldo_inicial = saldo_inicial
 
     def __str__(self):
-        return f'{super().__str__}\nTitular: {self.titular};\nCPF: {self.cpf};\nSaldo Inicial: {self.saldo_inicial};\nSegundo Titular: {self.segundo_titular};'
+        return f'{super().__str__()}; {self.titular}; {self.cpf}; {self.saldo_inicial}; {self.segundo_titular}'
 
 
 

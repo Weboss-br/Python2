@@ -4,15 +4,8 @@ class PessoaJuridica(Conta):
     __segundo_titular = ''
     __titular = ''
     __cnpj = ''
-    __saldo_inicial = ''
-
-    @property
-    def segundo_titular(self):
-        return self.__segundo_titular
-    @segundo_titular.setter
-    def segundo_titular(self, segundo_titular):
-        self.__segundo_titular = segundo_titular
-    
+    __saldo_inicial = 0
+ 
     @property
     def titular(self):
         return self.__titular
@@ -34,5 +27,12 @@ class PessoaJuridica(Conta):
     def saldo_inicial(self, saldo_inicial):
         self.__saldo_inicial = saldo_inicial
 
+    @property
+    def segundo_titular(self):
+        return self.__segundo_titular
+    @segundo_titular.setter
+    def segundo_titular(self, segundo_titular):
+        self.__segundo_titular = segundo_titular
+
     def __str__(self):
-        return f'{super().__str__}\nTitular: {self.titular};\nCNPJ: {self.cnpj};\nSaldo Inicial: {self.saldo_inicial};\nSegundo Titular: {self.segundo_titular};'
+        return f'{super().__str__()}; {self.titular}; {self.cnpj}; {self.saldo_inicial}; {self.segundo_titular}'
