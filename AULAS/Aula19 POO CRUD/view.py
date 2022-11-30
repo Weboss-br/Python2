@@ -2,9 +2,9 @@ from model import Conta
 from controller import create, read
 
 a1 = Conta()
-a1.titular = 'Marcio Kratos'
-a1.numero = '123456789'
-a1.saldo = 3000.0
+a1.titular = 'Dieter Heiss'
+a1.numero = '1616161'
+a1.saldo = 15000.0
 
 create(a1)
 

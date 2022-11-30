@@ -35,7 +35,7 @@ class PessoaFisica(Conta):
         self.__saldo_inicial = saldo_inicial
 
     def __str__(self):
-        return f'{super().__str__()}; {self.titular}; {self.cpf}; {self.saldo_inicial}; {self.segundo_titular}'
+        return f'{super().__str__()};{self.titular};{self.cpf};{self.saldo_inicial};{self.segundo_titular}'
 
 
 
